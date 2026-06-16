@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cargo build 2>&1)",
+      "PowerShell(cargo test 2>&1)"
+    ]
+  }
+}
