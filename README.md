@@ -7,7 +7,7 @@ Anchor programs (pre-1.0) publish their IDL to a deterministic account derived f
 ## Install
 
 ```sh
-cargo install --path .
+cargo install extrL
 # or
 cargo build --release   # -> target/release/extrL
 ```
