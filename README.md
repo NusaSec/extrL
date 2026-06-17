@@ -1,5 +1,9 @@
 # extrL
 
+[![CI](https://github.com/NusaSec/extrL/actions/workflows/ci.yml/badge.svg)](https://github.com/NusaSec/extrL/actions/workflows/ci.yml)
+[![crates.io](https://img.shields.io/crates/v/extrL.svg)](https://crates.io/crates/extrL)
+[![Rust](https://img.shields.io/badge/rust-stable-orange.svg)](https://www.rust-lang.org)
+
 Download a Solana program's on-chain Anchor IDL straight from the chain - no `anchor` toolchain, no RPC SDK, single static binary.
 
 Anchor programs (pre-1.0) publish their IDL to a deterministic account derived from the program id and the seed `anchor:idl`. `extrL` derives that address, fetches the account over plain JSON-RPC, strips the header, zlib-inflates the payload, and writes the IDL JSON.
